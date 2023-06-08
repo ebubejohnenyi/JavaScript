@@ -1,0 +1,10 @@
+var1 = 2;
+var2 = 4;
+var3 = 6;
+temp = var1;
+var1 = var2;
+var2 = var3;
+var3 = temp;
+console.log("This is for var1", var1);
+console.log("This is the var2", var2);
+console.log("This is the var3", var3);
